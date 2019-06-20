@@ -1,11 +1,15 @@
 # gifsworld
 
-
+[![Build Status](https://travis-ci.org/dj0nny/GifsWorld.svg?branch=develop)](https://travis-ci.org/dj0nny/GifsWorld)
 [![npm version](https://badge.fury.io/js/vue.svg)](https://badge.fury.io/js/vue)
 [![npm version](https://badge.fury.io/js/electron.svg)](https://badge.fury.io/js/electron)
 [![vue](https://img.shields.io/badge/build%20with-vue-blue.svg)](https://img.shields.io/badge/build%20with-vue-blue.svg)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+
 
 > Gifs finder built with Vue and Electron
+
+![](https://raw.githubusercontent.com/dj0nny/GifsWorld/develop/src/renderer/assets/screen.PNG)
 
 ## Getting Started
 
