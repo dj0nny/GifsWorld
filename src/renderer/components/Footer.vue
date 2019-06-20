@@ -5,9 +5,9 @@
         <div class="col-md-9">
           Made with ️️❤️ by <a href="https://github.com/dj0nny" target="_blank">dj0nny</a> &copy; {{ year }}
         </div>
-        <div class="col-md-3">
+        <!-- <div class="col-md-3">
           social
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
