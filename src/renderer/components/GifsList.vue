@@ -5,8 +5,12 @@
         <div class="col-md-12">
           <div class="search">
             <form @submit.prevent="searchGifs()" prevent.default>
-              <input type="text" v-model="gifTerm">
-              <button type="submit">Search Gifs</button>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" v-model="gifTerm">
+                <div class="input-group-append">
+                  <button class="btn custom" type="submit" id="button-addon2">Search Gifs</button>
+                </div>
+              </div>
             </form>
           </div>
         </div>
@@ -17,7 +21,7 @@
         <div class="col-md-4 gif" v-for="(gif, index) in gifs.gifs.data" :key="index">
           <img :src="gif.images.fixed_height.url" alt="gif">
           <div class="more">
-            <button @click="openUrl(gif.url)">View gif</button>
+            <button class="btn custom" @click="openUrl(gif.url)">View gif</button>
           </div>
         </div>
       </div>
@@ -67,7 +71,26 @@ export default {
 .gifs-list .gif img {
     width: 100%;
     cursor: pointer;
+    max-height: 200px;
 }
 
+.more {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.gif-search-form {
+    text-align: center;
+}
+
+button.btn.custom {
+    background: #554269;
+    color: #fff;
+    border: 1px solid #554269;
+}
+
+button.btn.custom:hover {
+  text-decoration: underline;
+}
 
 </style>
