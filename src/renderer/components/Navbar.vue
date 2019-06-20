@@ -42,36 +42,36 @@ export default {
 </script>
 
 <style scoped>
-  #navbar {
-    background: #41cac6;
-    padding: 10px;
-    
-  }
+#navbar {
+  background: #41cac6;
+  padding: 10px;
+  
+}
 
-  div#app-title h1 {
-    font-size: 30px;
-    margin: 0;
-     -webkit-app-region: drag;
-  }
+div#app-title h1 {
+  font-size: 30px;
+  margin: 0;
+    -webkit-app-region: drag;
+}
 
-  ul.controls {
-    margin: 0;
-    padding: 0;
-    float: right;
-    margin-top: 5px;
-  }
+ul.controls {
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-top: 5px;
+}
 
-  ul.controls li.control {
-    list-style-type: none;
-    display: inline-block;
-    margin-right: 30px;
-  }
+ul.controls li.control {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 30px;
+}
 
-  ul.controls li.control img {
-    width: 15px;
-  }
+ul.controls li.control img {
+  width: 15px;
+}
 
-  ul.controls li.control img:hover {
-    cursor: pointer;
-  }
+ul.controls li.control img:hover {
+  cursor: pointer;
+}
 </style>

@@ -6,16 +6,19 @@
         <router-view></router-view>
      </div>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 export default {
   name: 'gifsworld',
   components: {
-    Navbar
+    Navbar,
+    Footer
   }
 }
 </script>
@@ -30,6 +33,7 @@ body {
 
 #app-body {
   background: #4c98cf;
+  padding: 40px;
 }
 
 </style>
